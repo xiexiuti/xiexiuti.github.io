@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>链接样式测试</title>
+  <style>
+  div{
+    border:30px dashed  purple;
+    width:220px;
+    height:80px;
+    position:relative;
+    top:2%;
+    left:1%;
+    background: lime;
+  }
+   
+
+  img{
+    opacity:0;
+    position:absolute;
+    left:80%;
+  }
+
+  a{
+    font-size:4em;
+   
+  }
+  a:link{
+    color:green;
+  }
+  a:visited{
+    color:fuchsia;
+  }
+  a:hover{
+    color:maroon;
+  }
+  a:active{
+    color:aqua;
+  }
+  a:hover img{
+    opacity:1;
+  }
+   .c .erer{
+      background: url("http://img3.3lian.com/2014/s4/79/d/112.jpg") no-repeat;
+      position: absolute;
+      left:120px;
+      top:1px;
+      opacity: 0;
+      transition:all 1s;
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="c">
+  <a href="//www.hao123.com">点击<img src="http://img3.3lian.com/2014/s4/79/d/112.jpg" alt=""></a>
+  
+  <div class="erer"></div>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>图片</title>
+  <style>
+    div{
+      width: 366px;
+    height: 278px;
+    border:10px solid gray;
+    box-shadow: 0px 0px 30px 0px #0ff;
+   overflow:hidden;  
+     position: absolute;
+    }
+    div img{
+     transition:all.5s ;
+      transform:scale(1)
+
+     
+    }
+    div:hover img{
+      
+ cursor:pointer;
+     transform:scale(2)
+    }
+    div figcaption{
+      
+      position:absolute;
+      text-align:center;
+      left:0;
+      z-index:3;
+      bottom:0;
+      background-color:#0ff;
+      height: 20px;
+      width: 100%;
+      color:rgba(0,50,0,0)
+        
+      
+      
+    }
+    div:hover figcaption{
+      color:rgba(0,50,0,1);
+      background-color:rgba(255,0,255,0.3);
+    }
+    figcaption{
+      font-style:italic;
+       font-weight:500;
+     text-indent:1em;
+      letter-spacing:5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="a">
+    <figcaption><strong>Bailing  Baling</strong></figcaption>
+    <img src="http://f.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=34480776be0e7bec238f0be51a1e950e/b3fb43166d224f4a2ded606a0ff790529822d156.jpg" alt="">
+  </div>
+</body>
+</html>
